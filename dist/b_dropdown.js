@@ -125,7 +125,7 @@
           this.toggleMock = this.toggleMock.bind(this);
           this.$selectEl = $(el);
           this.$realOptions = this.$selectEl.children('option');
-          this.$selectEl.data('jsobject', this);
+          this.$selectEl.data('jsdropdown', this);
           this.opts = $.extend({}, this.defaultOpts, opts || {});
           // Throw error if the provided element is no select HTML element
           if (this.$selectEl.prop('tagName') !== 'SELECT') {
