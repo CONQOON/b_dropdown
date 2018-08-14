@@ -49,7 +49,7 @@ define 'b_dropdown',
       constructor: (el, opts) ->
         @$selectEl = $ el
         @$realOptions = @$selectEl.children 'option'
-        @$selectEl.data('jsobject', @)
+        @$selectEl.data('jsdropdown', @)
 
         @opts = $.extend {}, @defaultOpts, opts or {}
 
