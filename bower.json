@@ -2,7 +2,14 @@
   "name": "b_dropdown",
   "description": "Fully stylable javascript select menu.",
   "homepage": "https://github.com/b13/b_dropdown",
-  "keywords": ["dropdown", "select", "custom", "stylable", "css", "javascript"],
+  "keywords": [
+    "dropdown",
+    "select",
+    "custom",
+    "stylable",
+    "css",
+    "javascript"
+  ],
   "main": [
     "dist/b_dropdown.min.js",
     "dist/b_dropdown.min.css"
@@ -10,7 +17,10 @@
   "version": "2.1.1",
   "license": "MIT",
   "authors": [
-    {"name": "Benjamin Gröner", "email": "groener@b13.de"}
+    {
+      "name": "Benjamin Gröner",
+      "email": "groener@b13.de"
+    }
   ],
   "repository": {
     "type": "git",
@@ -27,6 +37,7 @@
   ],
   "devDependencies": {
     "requirejs": "~2.1.15",
-    "bootstrap": "~3.3.2"
+    "bootstrap": "~3.3.2",
+    "underscore": "^1.9.1"
   }
 }
